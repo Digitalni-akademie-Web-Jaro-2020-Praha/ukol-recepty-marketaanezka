@@ -1,7 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-html { box-sizing: border-box; }
-*, :after, :before { box-sizing: inherit; }
-
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
 
 /* -------------------------------------------------- */
 
@@ -17,24 +22,123 @@ notebook/pc:
 }
 */
 
-
 body {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .paticka {
-    text-align: center;
-    font-size: 14px;
-    color: silver;
+  text-align: center;
+  font-size: 14px;
+  color: silver;
 }
 
 .paticka a {
-    color: silver;
+  color: silver;
 }
-
 
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+
+.doporucujeme {
+    color: ghostwhite ;
+    text-shadow: 0px 2px 4px rgb(48, 45, 45);
+}
+
+.recept-meta {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.hlavni-recept .recept-nazev {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.recepty .recept-nazev {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+ .recept {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hlavni-recept {
+  min-height: 200px;
+  background-image: url(images/burger.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: 0.1rem solid rgb(56, 45, 45);
+}
+
+.recepty {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.recept3 {
+    order: 1;
+}
+
+.recept5 {
+    order: 1;
+} 
+
+.recept2 {
+  min-height: 90px;
+  background-image: url(images/sushi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.recept3 {
+  min-height: 90px;
+  background-image: url(images/kure.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.recept4 {
+  min-height: 90px;
+  background-image: url(images/rajcata.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.recept5 {
+  min-height: 90px;
+  background-image: url(images/grilovani.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.recept {
+  padding: 10px;
+  border-bottom: 0.1rem solid white;
+}
+
+.hlavni-recept {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.recept-nazev {
+  margin: 0;
+}
+
+.recept-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
