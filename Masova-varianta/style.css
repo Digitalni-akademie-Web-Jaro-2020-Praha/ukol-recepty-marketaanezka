@@ -71,7 +71,7 @@ body {
 
 .hlavni-recept {
   min-height: 200px;
-  background-image: url(images/burger.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/burger.jpg);
   background-size: cover;
   background-position: center;
   border-bottom: 0.1rem solid white;
@@ -95,23 +95,24 @@ body {
   background-size: cover;
   background-position: center;
   padding: 10px;
-  border-bottom: 0.1rem solid white;
+  border-bottom: 0.1rem solid rgb(255, 255, 255);
 }
 
 .recept2 {
-  background-image: url(images/sushi.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/sushi.jpg);
 }
 
 .recept3 {
-  background-image: url(images/kure.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/kure.jpg);
 }
 
 .recept4 {
-  background-image: url(images/rajcata.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/rajcata.jpg);
 }
 
 .recept5 {
-  background-image: url(images/grilovani.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/grilovani.jpg);
 }
 
 .hlavni-recept {
